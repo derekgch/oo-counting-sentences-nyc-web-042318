@@ -21,9 +21,9 @@ class String
 
   def count_sentences
     temp= self.squeeze
-    n = self.count(".")
-    n +=self.count("?")
-    n +=self.count("!")
+    n = temp.count(".")
+    n +=temp.count("?")
+    n +=temp.count("!")
 
   end
 end

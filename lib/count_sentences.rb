@@ -20,6 +20,9 @@ class String
   end
 
   def count_sentences
+    n = self.count(".")
+    n +=self.count("?")
+    n +=self.count("!")
 
   end
 end

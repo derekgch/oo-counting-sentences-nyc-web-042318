@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?(str)
-    return true if str.last == '.'
+    return true if str.last == "."
     false
   end
 

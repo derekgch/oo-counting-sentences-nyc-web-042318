@@ -2,7 +2,8 @@ require 'pry'
 
 class String
 
-  def sentence?
+  def sentence?(str)
+    return true if str.last == '.'
     
   end
 

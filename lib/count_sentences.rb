@@ -4,7 +4,7 @@ class String
 
   def sentence?(str)
     return true if str.last == '.'
-    
+    false
   end
 
   def question?

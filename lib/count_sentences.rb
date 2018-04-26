@@ -20,6 +20,7 @@ class String
   end
 
   def count_sentences
+    temp= self.squeeze("")
     n = self.count(".")
     n +=self.count("?")
     n +=self.count("!")
